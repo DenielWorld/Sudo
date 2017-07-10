@@ -1,0 +1,21 @@
+---
+name: WinterBuild7074
+author: RCAP
+version: 1.0.0
+api: [3.0.0-ALPHA5]
+main: RCAP\WinterBuild7074\Main
+commands:
+  as:
+    description: "Run a command as a player"
+    permission: "rcap"
+  run-as:
+    description: "Run a command as a player"
+    permission: "rcap"
+  sudo:
+    description: "Run a command as a player"
+    permission: "rcap"
+
+permissions:
+  rcap:
+    description: "Allow players to run a command as a player"
+...

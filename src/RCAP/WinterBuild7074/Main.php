@@ -20,9 +20,10 @@ class Main extends PluginBase {
 						$player = $args[0];
 						if($this->getServer()->getPlayer($player)) {
 							if(isset($args[1])) {
-								$command = array_shift($args);
+								$command = array_splice($args, 1, 99999);
 								$run_cmd = implode(" ", $command);
-								$this->getServer()->dispatchCommand($player, $command);
+								$run_player = $this->getServer()->getPlayer($player);
+								$this->getServer()->dispatchCommand($run_player, $run_cmd);
 								$sender->sendMessage("§aRan command as §o" . $player . "§r§a.");
 							} else {
 								$sender->sendMessage("§cUsage: /" . $label . " <player> <command>");

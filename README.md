@@ -1,10 +1,10 @@
 # RCAP
-RCAP – "Run Command As Player" – Plugin for PocketMine
+RCAP – Run Command As Player – Plugin for PocketMine
 
-Command(s):
-- /as <player> <command>
-- /sudo <player> <command>
-- /run-as <player> <command <command>
+## Commands
+- `/as <player> <command>`
+- `/sudo <player> <command>`
+- `/run-as <player> <command <command>`
 
-Permission:
-- rcap
+## Permission
+- `rcap`

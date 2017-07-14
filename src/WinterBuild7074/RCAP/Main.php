@@ -1,6 +1,6 @@
 <?php
 
-namespace RCAP\WinterBuild7074;
+namespace WinterBuild7074\RCAP;
 
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;

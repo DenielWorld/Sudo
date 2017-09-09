@@ -1,21 +1,21 @@
 ---
-name: WinterBuild7074
-author: RCAP
+name: Sudo
+author: WinterBuild7074
 version: 1.0.0
-api: [3.0.0-ALPHA5,3.0.0-ALPHA6,3.0.0-ALPHA7]
-main: WinterBuild7074\RCAP\Main
+api: [3.0.0-ALPHA7]
+main: WinterBuild7074\Sudo\Main
 commands:
   as:
-    description: "Run a command as a player"
-    permission: "rcap"
+    description: "Sudo a player"
+    permission: "sudo"
   run-as:
-    description: "Run a command as a player"
-    permission: "rcap"
+    description: "Sudo a player"
+    permission: "sudo"
   sudo:
-    description: "Run a command as a player"
-    permission: "rcap"
+    description: "Sudo a player"
+    permission: "sudo"
 
 permissions:
-  rcap:
-    description: "Allow players to run a command as a player"
+  sudo:
+    description: "Allow players to sudo another player"
 ...

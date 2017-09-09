@@ -1,5 +1,6 @@
-# RCAP
-RCAP – Run Command As Player – Plugin for PocketMine
+# Sudo
+Sudo – Sudo a Player – Plugin for PocketMine
+*Also called RCA – Run Command As ...*
 
 ## Commands
 - `/as <player> <command>`
@@ -7,4 +8,4 @@ RCAP – Run Command As Player – Plugin for PocketMine
 - `/run-as <player> <command <command>`
 
 ## Permissions
-- `rcap` – Allow players to run a command as a player
+- `sudo` – Allow players to sudo a player

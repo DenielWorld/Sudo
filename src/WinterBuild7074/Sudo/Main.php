@@ -19,7 +19,7 @@ class Main extends PluginBase {
 					if(isset($args[0]) && isset($args[1])) {
 						$player = $args[0];
 						if($this->getServer()->getPlayer($player)) {
-							$command = array_splice($args, 1, PHP_INT_MAX);
+							$command = array_splice($args, 0, 1);
 							$run_cmd = implode(" ", $command);
 							$run_player = $this->getServer()->getPlayer($player);
 							$this->getServer()->dispatchCommand($run_player, $run_cmd);
